@@ -1,0 +1,1008 @@
+/* Toastr Modal */
+.toast-success {
+    background-color: #32cd32 !important;
+}
+
+.toast-warning {
+    background-color: #ffac1c !important;
+}
+
+.toast-error {
+    background-color: #ff3131 !important;
+}
+
+/* ----------------------------------------- KALENDER ------------------------------------------- */
+
+/* Container Kalender */
+#calendar-container {
+    border-radius: 20px;
+    width: 95%;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Jarak Border ke Kalender */
+.custom-calendar {
+    margin: 20px;
+}
+
+/* Header Toolbar */
+.fc-toolbar {
+    margin-top: -10px;
+}
+
+/* Ukuran Font */
+#calendar .fc-toolbar-title {
+    font-size: 26px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#calendar {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Margin Navbar Atas */
+#calendar .fc-dayGridMonth-button,
+#calendar .fc-timeGridWeek-button,
+#calendar .fc-timeGridDay-button {
+    margin-right: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+}
+
+#calendar .fc-today-button {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+}
+
+/* ----------------------------------------- KANAN KALENDER ------------------------------------------- */
+
+/* Text Hi There */
+.welcome-heading {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    margin-left: 10px;
+}
+
+/* Tombol Konfirm Drag Event */
+#dragConfirmBtn {
+    color: white;
+    background-color: #4cbb17;
+    border-color: #4cbb17;
+    height: 40;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+/* Tombol Cancel Drag Event */
+#cancelConfirmBtn {
+    height: 40;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+
+/* Tombol Add Event */
+#add-event {
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    margin-left: 270px;
+    font-weight: 600;
+}
+
+/* Tombol See Attachment */
+#see-attachment {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 80px;
+    background-color: grey;
+    border-color: gray;
+    font-weight: 600;
+}
+
+/* Modal See Attachment */
+.noattachment-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#seeAttachmentsModalLabel {
+    margin-left: 110px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#searchField {
+    font-weight: 600;
+}
+
+#attachmentText {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#attachmentBorder1 {
+    border: 2px solid black;
+}
+
+#addFileButton {
+    font-size: 14px;
+    width: 80%;
+}
+
+#uploadConfirmBtn {
+    position: absolute;
+    color: white;
+    background-color: #4cbb17;
+    border-color: #4cbb17;
+    border-radius: 10px;
+    height: 50;
+    margin-top: 120px;
+    margin-left: 380px;
+    font-weight: 600;
+    width: 7%;
+}
+
+#cancelUploadBtn {
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-color: red;
+    border-radius: 10px;
+    height: 40;
+    margin-top: 120px;
+    margin-left: 420px;
+    font-weight: 1000;
+    width: 7%;
+}
+
+#additionalElements {
+    margin-left: -30px;
+}
+
+.attachment-list-item {
+    list-style-type: none;
+    box-shadow: -5px 0 10px rgba(0, 0, 255, 0.1),
+        5px 0 10px rgba(0, 0, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 5px 1px 5px;
+    font-size: 13px;
+    color: #000000;
+    font-weight: 490;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.bi-paperclip,
+.bi-person,
+.bi-clock {
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.downloadFileButton {
+    position: absolute;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    margin-left: 350px;
+}
+
+.downloadFileButton2 {
+    position: absolute;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    margin-left: 350px;
+}
+
+.deleteFileButton {
+    position: absolute;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    margin-left: 270px;
+}
+
+/* Modal Add Event*/
+.modal-title {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#addEventModalLabel {
+    margin-left: 145px;
+}
+
+#saveButton {
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-left: 120px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+#resetButton {
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-right: 120px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Event Hari Ini */
+.agenda-heading {
+    font-family: "Trebuchet MS", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.today-agenda {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    width: 85%;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.event-list-item {
+    width: 92%;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.events-image {
+    width: 15px;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.description-image {
+    width: 15px;
+    margin-left: 7px;
+    margin-right: 6px;
+}
+
+.clock-image {
+    width: 15px;
+    margin-left: 7px;
+    margin-right: 6px;
+}
+
+.person-image {
+    width: 15px;
+    margin-left: 7px;
+    margin-right: 6px;
+}
+
+.noevents-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.no-event-message {
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Event Akan Datang */
+.upcoming-agenda {
+    background-color: #ffffff;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px;
+    width: 85%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Modal Detail Event*/
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#eventDetailModalLabel {
+    margin-left: 155px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.modal-body strong {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.modal-body span {
+    color: #333;
+    font-weight: normal;
+}
+
+#modalTitle {
+    margin-left: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#modalDescription {
+    margin-left: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#modalStart {
+    margin-left: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#modalEnd {
+    margin-left: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#modalCreatedBy {
+    margin-left: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#modalCreatedAt {
+    margin-left: 5px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.btn-close {
+    color: #fff;
+}
+
+.btn-close:hover {
+    color: #f8f9fa;
+}
+
+.modal.fade.show {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#editButton {
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+#deleteButton {
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Modal Update Event*/
+#editEventModalLabel {
+    margin-left: 130px;
+}
+
+#updateButton {
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-left: 120px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+#resetButton2 {
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1), 5px 0 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin-right: 120px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Modal Konfirmasi Penghapusan */
+#deleteConfirmationModalLabel {
+    margin-left: 140px;
+}
+
+#deleteConfirmationModal .modal-body {
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+.red-icon {
+    color: red;
+    font-size: 64px;
+    margin-bottom: 5px;
+}
+
+#text1 {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#text2 {
+    font-weight: 500;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Modal Konfirmasi Drag Event */
+#confirmationModalLabel {
+    margin-left: 110px;
+}
+
+#confirmationModal .modal-body {
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+.yellow-icon {
+    color: orange;
+    font-size: 64px;
+    margin-bottom: 5px;
+}
+
+/* Responsif ke Layar HP */
+@media only screen and (max-width: 767px) {
+    /* ----------------------------------------- KALENDER ------------------------------------------- */
+
+    /* Container Kalender */
+    #calendar-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Header Toolbar */
+    .fc-toolbar {
+        margin-top: -20px;
+    }
+
+    /* Tombol Geser Bulan/Minggu/Hari */
+    .fc-prev-button {
+        margin-bottom: 10px;
+    }
+
+    .fc-next-button {
+        margin-bottom: 10px;
+    }
+
+    /* Ukuran Font Judul*/
+    #calendar .fc-toolbar-title {
+        font-size: 14px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Tombol Ganti View Kalender */
+    #calendar .fc-dayGridMonth-button,
+    #calendar .fc-timeGridWeek-button,
+    #calendar .fc-timeGridDay-button {
+        margin-right: 0px;
+    }
+
+    #calendar .fc-day-header {
+        font-size: 10px;
+    }
+
+    #calendar {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    #welcome-heading {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #add-event {
+        margin-left: 10px;
+    }
+
+    #see-attachment {
+        margin-left: 10px;
+    }
+    #today-agenda-container {
+        margin-top: 20;
+    }
+
+    #calendar .fc-dayGridMonth-button,
+    #calendar .fc-timeGridWeek-button,
+    #calendar .fc-timeGridDay-button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    #calendar .fc-prev-button,
+    #calendar .fc-next-button,
+    #calendar .fc-today-button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    /* ----------------------------------------- KANAN KALENDER ------------------------------------------- */
+
+    /* Text Hi There */
+    .welcome-heading {
+        font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+    }
+
+    /* Tombol Konfirm Drag Event */
+    #dragConfirmBtn {
+        color: white;
+        background-color: #4cbb17;
+        border-color: #4cbb17;
+        height: 40;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    /* Tombol Cancel Drag Event */
+    #cancelConfirmBtn {
+        height: 40;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        margin-left: 2px;
+        font-weight: 1000;
+    }
+
+    /* Tombol Add Event */
+    #add-event {
+        position: absolute;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        margin-left: 220px;
+        font-weight: 600;
+    }
+
+    /* Tombol See Attachment */
+    #see-attachment {
+        margin-top: 7px;
+        margin-left: 50px;
+        background-color: grey;
+        border-color: gray;
+        font-weight: 600;
+    }
+
+    /* Modal See Attachment */
+    .noattachment-image {
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    #seeAttachmentsModalLabel {
+        margin-left: 60px;
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    #searchField {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    #attachmentText {
+        text-align: center;
+        font-size: 16px;
+        margin-top: -10px;
+        margin-bottom: -5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #attachmentBorder1 {
+        border: 2px solid black;
+    }
+
+    #addFileButton {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    #uploadConfirmBtn {
+        position: absolute;
+        color: white;
+        background-color: #4cbb17;
+        border-color: #4cbb17;
+        border-radius: 10px;
+        height: 50;
+        margin-top: 115px;
+        margin-left: 280px;
+        font-weight: 600;
+        width: 9%;
+    }
+
+    #cancelUploadBtn {
+        position: absolute;
+        color: white;
+        background-color: red;
+        border-color: red;
+        border-radius: 10px;
+        height: 40;
+        margin-top: 115px;
+        margin-left: 315px;
+        font-weight: 1000;
+        width: 9%;
+    }
+
+    #additionalElements {
+        margin-left: -30px;
+    }
+
+    .attachment-list-item {
+        list-style-type: none;
+        box-shadow: -5px 0 10px rgba(0, 0, 255, 0.1),
+            5px 0 10px rgba(0, 0, 255, 0.1);
+        border-radius: 10px;
+        padding: 10px 5px 1px 5px;
+        font-size: 13px;
+        color: #000000;
+        font-weight: 490;
+        margin-top: 15px;
+        margin-bottom: 7px;
+        cursor: pointer;
+    }
+
+    .bi-paperclip,
+    .bi-person,
+    .bi-clock {
+        margin-left: 2px;
+        margin-right: 5px;
+    }
+
+    .downloadFileButton {
+        position: absolute;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: -35px;
+        margin-left: 220px;
+        height: 12%;
+    }
+
+    .deleteFileButton {
+        position: absolute;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: -70px;
+        margin-left: 232px;
+        height: 12%;
+    }
+
+    /* Modal Add Event*/
+    .modal-title {
+        font-size: 24px;
+        color: #ffffff;
+    }
+
+    #addEventModalLabel {
+        margin-left: 100px;
+        font-size: 20px;
+    }
+
+    #saveButton {
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        width: 20%;
+        margin-left: 100px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    #resetButton {
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        width: 20%;
+        margin-right: 100px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    /* Event Hari Ini */
+    .agenda-heading {
+        font-family: "Trebuchet MS", sans-serif;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .today-agenda {
+        background-color: #ffffff;
+        border-radius: 20px;
+        padding: 10px;
+        width: 100%;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: -5px;
+        margin-bottom: 20px;
+    }
+
+    .event-list-item {
+        width: 92%;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+
+    .events-image {
+        width: 15px;
+        margin-left: 7px;
+        margin-right: 5px;
+    }
+
+    .description-image {
+        width: 15px;
+        margin-left: 7px;
+        margin-right: 6px;
+    }
+
+    .clock-image {
+        width: 15px;
+        margin-left: 7px;
+        margin-right: 6px;
+    }
+
+    .person-image {
+        width: 15px;
+        margin-left: 7px;
+        margin-right: 6px;
+    }
+
+    .noevents-image {
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .no-event-message {
+        font-family: "Trebuchet MS", sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Event Akan Datang */
+    .upcoming-agenda {
+        background-color: #ffffff;
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        padding: 10px;
+        width: 100%;
+        margin-left: -5px;
+        margin-bottom: 20px;
+    }
+
+    /* Modal Detail Event*/
+    .modal-content {
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-header {
+        background-color: #007bff;
+        color: #ffffff;
+        border-bottom: 1px solid #ddd;
+        padding: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #eventDetailModalLabel {
+        margin-left: 110px;
+        font-size: 20px;
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .modal-body strong {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .modal-body span {
+        color: #333;
+        font-weight: normal;
+    }
+
+    #modalTitle {
+        margin-left: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #modalDescription {
+        margin-left: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #modalStart {
+        margin-left: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #modalEnd {
+        margin-left: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #modalCreatedBy {
+        margin-left: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #modalCreatedAt {
+        margin-left: 5px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    .btn-close {
+        color: #fff;
+    }
+
+    .btn-close:hover {
+        color: #f8f9fa;
+    }
+
+    .modal.fade.show {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #editButton {
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        width: 20%;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    #deleteButton {
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        width: 20%;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    /* Modal Update Event*/
+    #editEventModalLabel {
+        margin-left: 90px;
+        font-size: 20px;
+    }
+
+    #updateButton {
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        width: 20%;
+        margin-left: 100px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    #resetButton2 {
+        box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1),
+            5px 0 10px rgba(0, 0, 0, 0.1);
+        width: 20%;
+        margin-right: 100px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    /* Modal Konfirmasi Penghapusan */
+    #deleteConfirmationModalLabel {
+        margin-left: 90px;
+        font-size: 20px;
+    }
+
+    #deleteConfirmationModal .modal-body {
+        margin-bottom: -15px;
+        text-align: center;
+    }
+
+    .red-icon {
+        color: red;
+        font-size: 54px;
+        margin-bottom: 5px;
+    }
+
+    #text1 {
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    #text2 {
+        font-weight: 500;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    /* Modal Konfirmasi Drag Event */
+    #confirmationModalLabel {
+        margin-left: 70px;
+        font-size: 20px;
+    }
+
+    #confirmationModal .modal-body {
+        margin-bottom: -15px;
+        text-align: center;
+    }
+
+    .yellow-icon {
+        color: orange;
+        font-size: 54px;
+        margin-bottom: 5px;
+    }
+}
