@@ -96,6 +96,15 @@ Developed based on employee interviews and feedback. It has an attractive yet pr
 ### 💭 Threads
 <img src="public/screenshots/threads.png" width="600" />
 
+### ✅ Admin - Threads Approval
+<img src="public/screenshots/admin_threadsApproval.png" width="600" />
+
+### 👥 Admin - User Management
+<img src="public/screenshots/user_management.png" width="600" />
+
+### 👑 Admin - User Role
+<img src="public/screenshots/user_role.png" width="600" />
+
 </div>
 
 </details>
@@ -114,8 +123,8 @@ Developed based on employee interviews and feedback. It has an attractive yet pr
 
 ```bash
 # 📥 Clone the repository
-git clone https://github.com/bonifasiusbryan1/Simple-Student-Monitoring-System.git
-cd Simple-Student-Monitoring-System
+git clone https://github.com/bonifasiusbryan1/Sekarpura-II-Sistem-Informasi.git
+cd Sekarpura-II-Sistem-Informasi
 
 # 📦 Install dependencies
 composer install && npm install
@@ -125,8 +134,8 @@ cp .env.example .env
 # Configure your database settings in .env
 
 # 🗄️ Database setup
-mysql -u root -p -e "CREATE DATABASE monitoring_mahasiswa;"
-mysql -u root -p monitoring_mahasiswa < monitoring_mahasiswa.sql
+mysql -u root -p -e "CREATE DATABASE your_database_name;"
+php artisan migrate
 
 # 🔑 Generate application key
 php artisan key:generate
@@ -135,6 +144,7 @@ php artisan key:generate
 php artisan storage:link
 
 # 🚀 Launch the application
+npm run dev
 php artisan serve
 ```
 
@@ -152,7 +162,11 @@ Simple-Student-Monitoring-System/
 ├── 📁 public/              # Public assets & screenshots
 ├── 📁 resources/           # Views, CSS, JS resources
 ├── 📁 routes/              # Application routes
-└── 📄 monitoring_mahasiswa.sql  # Database schema
 ```
+
+---
+
+### 📄 License
+Internal use only. All data and images are used as examples only.
 
 </div>
